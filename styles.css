@@ -3,5 +3,130 @@
 img {
     max-width: 200px;
 }
-
 /* Happy coding! */
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+h1 {
+    font-size: 3.50rem;
+    text-align:center;
+    text-decoration: underline
+
+}
+
+h2 {
+    font-size: 2rem;
+    text-align:left;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    flex:30%;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+.card__light {
+    background-color: white;
+    color: black;
+}
+
+.card__dark{
+    background-color: black;
+    color: white;
+}
+
+.card__green{
+    background-color: rgb(8, 62, 25);
+    color: white;
+}
+
+
+.card__blue{
+    background-color: rgb(48, 52, 89);
+    color: white;
+}
+
+
+
+.card__red{
+    background-color: rgb(73, 25, 25);
+    color: white;
+}
+
+.card__grey{
+    background-color: rgb(60, 48, 48);
+    color: white;
+}
+
+
+.button {
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.button:active {
+    
+    transform: translateY(4px);
+  }
+
+
+.button--dark{
+    background-color: Red ;
+    color: #fff;
+}
+
+.button--light{
+    background-color: lightseagreen;
+    color: #fff;
+    
+}
+
+
+.button--green{
+    background-color: rgb(31, 69, 46);
+    color: #fff;
+    
+}
+.button--blue{
+    background-color: rgb(17, 17, 71);
+    color: #fff;
+    
+}
+.button--red{
+    background-color: rgb(60, 41, 43);
+    color: #fff;
+    
+}
+.button--grey{
+    background-color: rgb(30, 2, 2);
+    color: #fff;
+    
+}
+
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+

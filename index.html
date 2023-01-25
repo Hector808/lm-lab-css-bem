@@ -6,30 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
 
 <body>
     <h1>BEM Wars</h1>
     <div class="container">
-        <div>
+        <div class="card card__dark">
             <h2>The Dark Side</h2>
             <img src="./images/vader.jpeg">
             <p>Nesting!</p>
             <p>Conflict!</p>
             <p>Specificity Wars!</p>
             <p>Cookies</p>
+            <button class="button button--dark">Danger</button>
+        </div>
+        
+
+        <div class="card card__light ">
+                <h2>The Force</h2>
+                <img src="./images/yoda.jpeg">
+                <p>Love</p>
+                <p>Beauty</p>
+                <p>CSS that Scales!</p>
+                <p>Great warrior. Wars not make one great!</p>
+                <button class="button button--light">wise</button>
+        </div>   
+
+
+
+
+
+        <div class="card card__green ">
+                <h2>Shield generator</h2>
+                <img src="./images/Iwok.jfif">
+                <p>Sensitive</p>
+                <p>Humanoid</p>
+                <p>Omnivorous</p>
+                <p>Quickly learned advanced technology</p>
+                <button class="button button--green">Small</button>
         </div>
 
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
-            <p>Love</p>
-            <p>Beauty</p>
-            <p>CSS that Scales!</p>
-            <p>Great warrior. Wars not make one great!</p>
+        <div class="card card__blue ">
+                <h2> Jedi</h2>
+                <img src="./images/Obi_Wan_Kenobi.jfif">
+                <p>Jedi master</p>
+                <p>Trainer</p>
+                <p>Jedi Order</p>
+                <p>Teach the ways of the Force</p>
+                <button class="button button--blue">General Jedi</button>  
         </div>
-    </div>
+
+
+        <div class="card card__red">
+                <h2>Princess</h2>
+                <img src="./images/Princess_Leia.jfif">
+                <p>Human Policy</p>
+                <p>Daughter of Reina Breha Organa</p>
+                <p>Force-sensitive</p>
+                <p>It's me, Leia Organa, Princess of Alderaan"</p>
+                <button class="button button--red">19 ABY</button>
+        </div>    
+
+
+        <div class="card card__grey ">
+                <h2>Serie R2 </h2>
+                <img src="./images/r2d2.jfif">
+                <p>Astromech droid</p>
+                <p>Automaton Industries</p>
+                <p>Real Engineers</p>
+                <p>Serving Jedi Luke Skywalker</p>
+                <button class="button button--grey">C-3PO</button>
+        </div>   
+
+
+
+     </div>
+
 </body>
 
 </html>
